@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   font-family: sans-serif;
-  padding: 10px;
+  padding: 5px;
 }
 
 .quoteBox{
@@ -12,6 +12,7 @@
   padding: 15px;
   border-radius: 10px;
   max-width: 600px;
+  position: relative;
   box-shadow: 1px 1px 18px gray;
 }
 
@@ -22,9 +23,9 @@
 
 .quoteBox__icon{
   position: absolute;
-  bottom: 12px;
+  bottom: 22px;
   left:12px;
-  font-style: 55px;
+  font-size: 50px;
 }
 
 
@@ -38,7 +39,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 10 0 auto;
+  margin: 0 10px 0 auto;
   cursor: pointer;
   transition: transform 200ms ease;
 }
@@ -47,6 +48,7 @@
   transform: scale(1.03);
 
 }
+
 
 
 
